@@ -1,0 +1,83 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  background: #222;
+}
+.cardCont{
+/*  padding:20px;*/
+  position: absolute;
+  top:30px;
+  right:100%;
+  transition: .2s ease-in-out;
+}
+.cardCont2{
+position: absolute;
+  top:30px;
+  right:100%;
+  transition: .2s ease-in-out;
+}
+.card,
+.card2{
+  width:15rem;
+  height:4rem;
+  background: rgba(250,250,250,0.95);
+  border-radius: 3px;
+  transition: .2s ease-in-out;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.flex button{
+  outline:none;
+background:salmon;
+border:none;
+  color:red;
+  font-size: 20px;
+  padding:15px;
+/*  background:salmon;*/
+  text-align: center;
+}
+.card .flex h1,
+.card2 .flex h1{
+  font-size: 20px;
+  padding:15px;
+  padding-bottom: 0px;
+  color: #222;
+}
+.card hr{
+  background: seagreen;
+  width:100%;
+  height:1px;
+  outline: none;
+  border: none;
+}
+.btn{
+  padding:15px;
+margin:20px;
+transition: .3s ease-in-out;
+}
+.btn:hover{
+  background: #222;
+  outline:none;
+border:1px solid White;
+color:White;
+scale: 1.1;
+}
+ .text_line{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 3px;
+    background: #007bff;
+}
+.card .text_linefail{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 3px;
+    background: salmon;
+}
